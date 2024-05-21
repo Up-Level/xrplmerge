@@ -1,0 +1,6 @@
+# lib.4rpl
+#include lib2.4rpl
+
+:Function
+    print("Function")
+    @AnotherFunction

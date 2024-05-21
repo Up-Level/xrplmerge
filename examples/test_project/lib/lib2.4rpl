@@ -1,0 +1,6 @@
+# lib2.4rpl
+
+:AnotherFunction
+    ->b ->a
+
+    <-a <-b +

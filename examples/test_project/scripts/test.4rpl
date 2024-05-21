@@ -1,0 +1,19 @@
+# test.4rpl
+#include lib.4rpl
+
+:Once
+    @Function
+
+# Source: lib.4rpl
+# lib.4rpl
+
+:Function
+    print("Function")
+    @AnotherFunction
+# Source: lib2.4rpl
+# lib2.4rpl
+
+:AnotherFunction
+    ->b ->a
+
+    <-a <-b +

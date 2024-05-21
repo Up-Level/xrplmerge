@@ -1,0 +1,5 @@
+# test.4rpl
+#include lib.4rpl
+
+:Once
+    @Function
